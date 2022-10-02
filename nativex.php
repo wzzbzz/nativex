@@ -23,7 +23,7 @@ class NativeX{
 	
 	private function loadconfig(){
 		
-		$fh = fopen("config.cfg","r");
+		$fh = fopen( __FILE__ . "config.cfg","r");
 		while ($row = fgetcsv($fh)){
 			$this->config[$row[0]] = $row[1];
 		}
