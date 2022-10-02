@@ -1,7 +1,6 @@
 <?php
 
-define ("BASEPATH",'/Users/James/Code/blackbart/therealjimwilliams.com/');
-require(BASEPATH . "_lib/php/nativex/nativex.php");
+require("nativex.php");
 
 $key = $argv[1];
 
